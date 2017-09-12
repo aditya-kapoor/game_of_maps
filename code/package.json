@@ -1,0 +1,44 @@
+{
+  "name": "atlas-of-thrones",
+  "version": "0.5.0",
+  "description": "Game of Thrones interactive map, powered by Leaflet, PostGIS, and Redis.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": {
+    "name": "Patrick Triest",
+    "email": "patrick.triest@gmail.com",
+    "url": "https://blog.patricktriest.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/triestpa/Atlas-Of-Thrones.git"
+  },
+  "license": {
+    "type": "Creative Commons Attribution-Non-Commercial-ShareAlike 3.0",
+    "url": "https://www.creativecommons.org/licenses/by-nc-sa/3.0/"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "dependencies": {
+    "dotenv": "4.0.0",
+    "ioredis": "3.1.4",
+    "joi": "10.6.0",
+    "kcors": "2.2.1",
+    "koa": "2.3.0",
+    "koa-joi-validate": "0.5.1",
+    "koa-router": "7.2.1",
+    "pg": "7.2.0",
+    "winston": "2.3.1"
+  },
+  "devDependencies": {
+    "eslint": "4.5.0",
+    "eslint-config-standard": "10.2.1",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-node": "5.1.1",
+    "eslint-plugin-promise": "3.5.0",
+    "eslint-plugin-standard": "3.0.1"
+  }
+}

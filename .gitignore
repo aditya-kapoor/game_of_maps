@@ -1,9 +1,9 @@
 .DS_Store
-./app/node_modules
-./app/.env
-./app/data
-./app/.vscode
-./app/public/bundle.js
-./app/database_setup/**/*.json
-./app/*.log
-./app/ignore
+./code/node_modules
+./code/.env
+./code/data
+./code/.vscode
+./code/public/bundle.js
+./code/database_setup/**/*.json
+./code/*.log
+./code/ignore
